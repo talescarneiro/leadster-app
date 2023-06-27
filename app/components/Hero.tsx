@@ -15,8 +15,8 @@ const Hero = () => {
                 className="absolute block xs:w-[23px] sm:w-[23px] md:w-[30px] lg:w-[30px] xs:top-2 sm:top-2 md:top-0 lg:top-0 xs:right-1 sm:right-1 md:right-0 lg:right-0"
             />
         </div>
-        <div className="w-2/6 xs:w-5/6 sm:w-3/6 md:w-4/6 lg:w-2/6 h-px bg-gray" />
-        <p className="px-5 xs:text-[10px] sm:text-[10px] md:text-[11px] lg:text-[13px]">Conheça as estratégias que <span className="font-semibold">mudaram o jogo</span> e como aplicá-las no seu negócio</p>
+        <div className="w-2/6 xs:w-5/6 sm:w-4/6 md:w-4/6 lg:w-2/5 h-px bg-gray" />
+        <p className="px-5 text-xs sm:text-xs md:text-sm lg:text-base">Conheça as estratégias que <span className="font-semibold">mudaram o jogo</span> e como aplicá-las no seu negócio</p>
     </section>
   )
 }

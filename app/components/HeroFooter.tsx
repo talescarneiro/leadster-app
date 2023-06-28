@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { CiCreditCardOff } from "react-icons/ci";
 
 const HeroFooter = () => {
   return (
@@ -15,9 +16,9 @@ const HeroFooter = () => {
         </div>
 
         <div className="lg:w-50-screen flex flex-col justify-center">
-          <div className="flex flex-col items-start lg:w-50-screen gap-2">
-            <h2 className="lg:text-xl">Pronto para triplicar sua <span className="font-semibold">Geração de Leads?</span></h2>
-            <p>Criação e ativação em <span className="font-semibold">4 minutos.</span></p>
+          <div className="flex flex-col items-start lg:w-80-screen gap-2">
+            <h2 className="xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl xs:text-2xl">Pronto para triplicar sua <span className="font-semibold">Geração de Leads?</span></h2>
+            <p className="text-sm">Criação e ativação em <span className="font-semibold">4 minutos.</span></p>
           </div>
           <div className='border my-3 w-full' />
           <div className="flex flex-col lg:flex-row gap-2 items-center">
@@ -30,7 +31,7 @@ const HeroFooter = () => {
             />
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-2 text-xs mt-2">
-            <p><span className="font-semibold">Não</span> é necessário Cartão de Crédito </p>
+            <p className="gap-1 flex"><CiCreditCardOff size={16} /><span className="font-semibold">Não</span> é necessário Cartão de Crédito </p>
             <p className="xl:block lg:block md: block sm:hidden xs:hidden">|</p>
             <div className="flex h-full mx-1 gap-1">
               <div className="flex items-center">

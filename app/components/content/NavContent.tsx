@@ -24,7 +24,7 @@ const NavContent = () => {
                 <p className='text-[12px] font-semibold'>Ordenar por: </p>
                 <select className='rounded-lg border py-1 px-2 text-[12px]'>
                     {optionsSelect.map((select) => (
-                        <option>{select.label}</option>
+                        <option key={select.label}>{select.label}</option>
                     ))}
                 </select>
             </div>

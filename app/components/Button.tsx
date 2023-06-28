@@ -4,14 +4,12 @@ interface ButtonProps {
     label: string;
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
     isActive?: boolean;
-    disabled?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
     label,
     onClick,
     isActive,
-    disabled
 }) => {
   return (
     <button

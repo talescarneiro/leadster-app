@@ -29,7 +29,7 @@ const HeroFooter = () => {
               height="130"
             />
           </div>
-          <div className="flex flex-col lg:flex-row items-center gap-2 text-xs">
+          <div className="flex flex-col lg:flex-row items-center gap-2 text-xs mt-2">
             <p><span className="font-semibold">Não</span> é necessário Cartão de Crédito </p>
             <p className="xl:block lg:block md: block sm:hidden xs:hidden">|</p>
             <div className="flex h-full mx-1 gap-1">

@@ -40,12 +40,14 @@ const Content = () => {
   }, [])
 
   return (
-    <main className='flex flex-col justify-center m-9 items-center'>
-        <NavContent />
-        <div className='border m-3 w-65-screen' />
-        <CardsContent currentCards={currentCards} />
-        <div className='border m-3 w-65-screen' />
-        <PageContent totalPages={totalPages} currentPage={currentPage} handleClickPage={handleClickPage} />         
+    <main className='flex flex-col justify-center my-9 items-center'>
+        <div className='w-65-screen flex flex-col justify-center items-center'>
+            <NavContent />
+            <div className='border m-3 w-full' />
+            <CardsContent currentCards={currentCards} />
+            <div className='border m-3 w-full' />
+            <PageContent totalPages={totalPages} currentPage={currentPage} handleClickPage={handleClickPage} />         
+        </div>
     </main>
   )
 }

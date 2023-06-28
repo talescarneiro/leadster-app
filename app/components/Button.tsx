@@ -23,6 +23,7 @@ const Button: React.FC<ButtonProps> = ({
             px-4
             py-2
             text-[12px]
+            whitespace-nowrap
             font-semibold
             hover:border-blueprimary
             ${!isActive && 'hover:text-blueprimary'}

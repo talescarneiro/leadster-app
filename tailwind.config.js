@@ -23,8 +23,10 @@ module.exports = {
         "xs": "310px",
       },
       width: {
+        '100-screen': '100%',
         '80-screen': '80%',
-        '65-screen': '65%'
+        '65-screen': '65%',
+        '50-screen': '50%',
       }
     },
   },

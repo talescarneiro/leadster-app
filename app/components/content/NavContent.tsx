@@ -14,8 +14,8 @@ const NavContent = () => {
     };
 
     return (
-        <div className="flex justify-evenly flex-wrap lg:flex-no-wrap lg:gap-[100px] md:gap-8 sm:gap-7 xs:gap-5">
-            <div className="flex flex-wrap lg:flex-no-wrap gap-3">
+        <div className="flex gap-5 justify-center xl:justify-between flex-wrap w-full">
+            <div className="flex gap-3 overflow-x-auto">
                 {buttonOptionsNav.map((button, index) => (
                     <Button key={button.label} label={button.label} onClick={() => handleButtonClick(index)} isActive={isActiveButton === index} />
                 ))}

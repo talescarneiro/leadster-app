@@ -15,8 +15,8 @@ interface CardsContentProps {
 
 const CardsContent: React.FC<CardsContentProps> = ({ currentCards }) => {
     return (
-        <div className='flex flex-col items-center justify-center mx-[130px]'>
-            <div className='flex flex-wrap justify-center gap-6'>
+        <div className='flex flex-col items-center justify-center'>
+            <div className='flex flex-wrap justify-between'>
                 {currentCards.map((card: any) => (
                     <div key={card.title} className='flex flex-col shadow-lg rounded-xl w-[300px]'>
                         <div className='object-cover'>

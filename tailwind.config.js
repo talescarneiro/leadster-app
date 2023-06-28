@@ -21,6 +21,10 @@ module.exports = {
       },
       screens: {
         "xs": "310px",
+      },
+      width: {
+        '80-screen': '80%',
+        '65-screen': '65%'
       }
     },
   },

@@ -14,7 +14,8 @@ module.exports = {
         "bluesecondary": "#1f76f0"
       },
       backgroundColor: {
-        "gray": "#D3D3D3"
+        "light-gray": "#F9F9F9",
+        "medium-gray": "#D3D3D3",
       },
       borderWidth: {
         "2": "2px",

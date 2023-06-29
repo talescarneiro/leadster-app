@@ -2,13 +2,25 @@ import Image from "next/image"
 import { useState } from "react";
 import Modal from "../Modal";
 
-interface Card {
+interface Download {
+    id: number;
+    name: string;
+    type: string;
+    src: string;
+    color: string;
+    primaryColor: string;
+    secondaryColor: string;
+  }
+
+export interface Card {
     id: string;
+    title: string;
+    category: string;
+    type: string;
     desc: string;
     src: string;
     thumb: string;
-    title: string;
-    type: string;
+    downloads: Download[];
 }
 
 interface CardsContentProps {
@@ -32,7 +44,7 @@ const CardsContent: React.FC<CardsContentProps> = ({ currentCards }) => {
 
     return (
         <div className='flex flex-col items-center justify-center'>
-            <div className='flex flex-wrap justify-between gap-y-6'>
+            <div className='flex flex-wrap justify-stretch gap-y-6 gap-4'>
                 {currentCards.map((card: Card) => (
                     <div key={card.title} onClick={() => openModal(card)} className='flex flex-col shadow-lg rounded-xl w-[300px] cursor-pointer group'>
                         <div className='object-cover relative'>

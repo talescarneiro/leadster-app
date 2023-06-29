@@ -64,7 +64,7 @@ const Modal = ({ card, closeModal }: any) => {
                 )}
                 <div className='flex gap-2 text-xs flex-wrap'>
                     {card?.downloads && card?.downloads?.map((download: any, index: any) => (
-                        <a href={download.src} className='flex items-center' download>
+                        <a key={index + 1} href={download.src} className='flex items-center' download>
                             <div className='h-full px-2 flex items-center rounded-l-md' style={{ backgroundColor: download.color }}><FiDownload size={14} /></div>
                             <div className='p-1 rounded-r-md font-semibold px-2' style={{ backgroundColor: download.secondaryColor, color: download.color }}>{download.name}.{download.type}</div>
                         </a>

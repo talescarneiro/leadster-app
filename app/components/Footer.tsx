@@ -61,6 +61,13 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="border-t-2 w-full h-auto flex items-center justify-center mt-9">
+                <div className="flex flex-col items-center lg:flex-row w-63-screen text-xs justify-between gap-3 py-6">
+                    <p>Copyright @ 2015 - 2023 Todos os direitos reservados | <a className="text-blue-400 font-medium" href="#">Leadster</a></p>
+                    <p>Rua José Loureiro, 464 - Centro - Curitiba PR - CEP 80010-000 | Termos de uso</p>
+                </div>
+            </div>
         </footer>
     )
 }

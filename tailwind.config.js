@@ -27,6 +27,7 @@ module.exports = {
         '100-screen': '100%',
         '80-screen': '80%',
         '65-screen': '65%',
+        '63-screen': '63%',
         '50-screen': '50%',
       }
     },

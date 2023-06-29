@@ -5,3 +5,7 @@
 select {
     outline: none;
 }
+
+.modal-open {
+    overflow: hidden;
+  }

@@ -3,104 +3,104 @@ export const contentLinks = [
         id: "webinar1",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar2",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar3",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar4",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar5",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar6",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar7",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar8",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar9",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar10",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar11",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar12",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
     {
         id: "webinar13",
         title: "Como aumentar sua Geração de Leads feat. Traktor",
         type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet",
-        src: "/assets/images/thumbnail.png",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png"
     },
 ]

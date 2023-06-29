@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import { FiDownload } from 'react-icons/fi';
+
 
 const Modal = ({ card, closeModal }: any) => {
   const modalRef = useRef<HTMLDivElement>(null);
@@ -36,7 +38,7 @@ const Modal = ({ card, closeModal }: any) => {
             <div className='w-full'>
                 <iframe
                 width="100%"
-                src="https://www.youtube.com/embed/yju8RTdhHQ0"
+                src={card.src}
                 title='Youtube Video'
                 allowFullScreen
                 style={{ aspectRatio: '16/9' }}
@@ -52,10 +54,22 @@ const Modal = ({ card, closeModal }: any) => {
                 <div>
                     <p className='text-sm'>{card.desc}</p>
                 </div>
-                <div>
-                    <h2 className='text-sm font-semibold mt-3'>Downloads</h2>
+                {card.downloads && (
+                    <>
+                        <div>
+                            <h2 className='text-sm font-semibold mt-3'>Downloads</h2>
+                        </div>
+                        <div className='w-full border' />
+                    </>
+                )}
+                <div className='flex gap-2 text-xs flex-wrap'>
+                    {card?.downloads && card?.downloads?.map((download: any, index: any) => (
+                        <a href={download.src} className='flex items-center' download>
+                            <div className='h-full px-2 flex items-center rounded-l-md' style={{ backgroundColor: download.color }}><FiDownload size={14} /></div>
+                            <div className='p-1 rounded-r-md font-semibold px-2' style={{ backgroundColor: download.secondaryColor, color: download.color }}>{download.name}.{download.type}</div>
+                        </a>
+                    ))}
                 </div>
-                <div className='w-full border' />
             </div>
         </div>
     </div>

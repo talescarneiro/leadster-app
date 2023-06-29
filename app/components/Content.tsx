@@ -19,6 +19,7 @@ const Content = () => {
 
   const handleClickPage = (page: any) => {
     setCurrentPage(page);
+    window.scrollTo({ top: 500, behavior: 'smooth' })
   };
 
   useEffect(() => {

@@ -5,7 +5,12 @@ export const contentLinks = [
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
-        thumb: "/assets/images/thumbnail.png"
+        thumb: "/assets/images/thumbnail.png",
+        downloads: [
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+        ]
     },
     {
         id: "webinar2",
@@ -13,7 +18,12 @@ export const contentLinks = [
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
-        thumb: "/assets/images/thumbnail.png"
+        thumb: "/assets/images/thumbnail.png",
+        downloads: [
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+        ]
     },
     {
         id: "webinar3",

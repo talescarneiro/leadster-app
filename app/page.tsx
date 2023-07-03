@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Content />
+      <Content/>
       <HeroFooter />
       <Footer />
     </>

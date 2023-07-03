@@ -1,8 +1,7 @@
 import Image from "next/image"
-import { useState } from "react";
 import Modal from "../Modal";
 
-interface Download {
+export interface Download {
     id: number;
     name: string;
     type: string;
@@ -15,6 +14,7 @@ interface Download {
 export interface Card {
     id: string;
     title: string;
+    date: string;
     category: string;
     type: string;
     desc: string;
@@ -25,26 +25,16 @@ export interface Card {
 
 interface CardsContentProps {
     currentCards: Card[];
+    openModal: (card: Card) => void;
+    closeModal: () => void;
+    modalOpen: boolean;
+    selectedCard: Card | null;
 }
 
-const CardsContent: React.FC<CardsContentProps> = ({ currentCards }) => {
-    const [modalOpen, setModalOpen] = useState(false)
-    const [selectedCard, setSelectedCard] = useState<Card | null>(null);
-
-    const openModal = (card: Card) => {
-        setSelectedCard(card)
-        setModalOpen(true)
-    }
-
-    const closeModal = () => {
-        setModalOpen(false)
-        setSelectedCard(null)
-    }
-
-
+const CardsContent: React.FC<CardsContentProps> = ({ currentCards, openModal, modalOpen, selectedCard, closeModal }) => {
     return (
         <div className='flex flex-col items-center justify-center'>
-            <div className='flex flex-wrap justify-stretch gap-y-6 gap-4'>
+            <div className='flex flex-wrap justify-between gap-y-6 gap-2'>
                 {currentCards.map((card: Card) => (
                     <div key={card.title} onClick={() => openModal(card)} className='flex flex-col shadow-lg rounded-xl w-[300px] cursor-pointer group'>
                         <div className='object-cover relative'>

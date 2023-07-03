@@ -1,14 +1,18 @@
 import React, { useEffect, useRef } from 'react';
 import { FiDownload } from 'react-icons/fi';
+import { Card, Download } from './content/CardsContent';
 
+interface ModalProps {
+  card: Card;
+  closeModal: () => void;
+}
 
-const Modal = ({ card, closeModal }: any) => {
+const Modal: React.FC<ModalProps> = ({ card, closeModal }) => {
   const modalRef = useRef<HTMLDivElement>(null);
 
   const handleCloseModal = () => {
     closeModal()
   }
-
 
   useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {
@@ -63,7 +67,7 @@ const Modal = ({ card, closeModal }: any) => {
                     </>
                 )}
                 <div className='flex gap-2 text-xs flex-wrap'>
-                    {card?.downloads && card?.downloads?.map((download: any, index: any) => (
+                    {card?.downloads && card?.downloads?.map((download: Download, index: number) => (
                         <a key={index + 1} href={download.src} className='flex items-center' download>
                             <div className='h-full px-2 flex items-center rounded-l-md' style={{ backgroundColor: download.color }}><FiDownload size={14} /></div>
                             <div className='p-1 rounded-r-md font-semibold px-2' style={{ backgroundColor: download.secondaryColor, color: download.color }}>{download.name}.{download.type}</div>

@@ -9,8 +9,6 @@ interface PageContentProps {
 }
 
 const PageContent: React.FC<PageContentProps> = ({ totalPages, currentPage, handleClickPage }) => {
-  
-
   return (
     <div className='flex gap-3 items-center'>
       <h3 className='font-semibold'>Página</h3>

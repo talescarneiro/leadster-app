@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { useState } from "react";
 import Content from "./components/Content";
@@ -10,7 +10,8 @@ import { Card } from "./components/content/CardsContent";
 import { contentCard } from "./constants";
 
 export default function Home() {
-  const [currentCards, setCurrentCards] = useState<Card[]>(contentCard || [])
+  const [currentCards, setCurrentCards] = useState<Card[]>(contentCard.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) || []);
+
 
   return (
     <>

@@ -2,7 +2,7 @@ import { categoryOptions, optionsSelect } from "@/app/constants"
 import Button from "../Button"
 
 interface CategoryContentProps {
-    handleButtonCategoryClick: (index: number) => void;
+    handleButtonCategoryClick: (index: number, category: string) => void;
     isActiveButtonCategory: number | null;
     selectedSortOption: string;
     handleSortOptionChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
@@ -13,7 +13,7 @@ const CategoryContent: React.FC<CategoryContentProps> = ({ handleButtonCategoryC
         <div className="flex gap-5 justify-center xl:justify-between flex-wrap w-full">
             <div className="flex gap-3 overflow-x-auto">
                 {categoryOptions.map((category, index) => (
-                    <Button key={category.label} label={category.label} onClick={() => handleButtonCategoryClick(index)} isActive={isActiveButtonCategory === index} />
+                    <Button key={category.label} label={category.label} onClick={() => handleButtonCategoryClick(index, category.value)} isActive={isActiveButtonCategory === index} />
                 ))}
             </div>
             <div className="lg:mt-0 flex items-center gap-3 text-sm">

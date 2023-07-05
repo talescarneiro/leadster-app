@@ -91,9 +91,9 @@ export const contentCard = [
     },
     {
         id: "webinar7",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
-        date: '2023-06-28',
+        title: "Gerando o melhor do Chatbot em 2023",
+        category: "Chatbot",
+        date: '2023-07-05',
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
@@ -106,53 +106,8 @@ export const contentCard = [
     },
     {
         id: "webinar8",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
-        date: '2023-06-27',
-        type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
-        thumb: "/assets/images/thumbnail.png",
-        downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
-        ]
-    },
-    {
-        id: "webinar9",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
-        date: '2023-07-03',
-        type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
-        thumb: "/assets/images/thumbnail.png",
-        downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
-        ]
-    },
-    {
-        id: "webinar10",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
-        date: '2023-07-03',
-        type: "Webinar",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
-        thumb: "/assets/images/thumbnail.png",
-        downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
-        ]
-    },
-    {
-        id: "webinar18",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
+        title: "Marketing Digital em 2023",
+        category: "Marketing Digital",
         date: '2023-07-01',
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -165,9 +120,24 @@ export const contentCard = [
         ]
     },
     {
-        id: "webinar19",
-        title: "Geração de Leads",
-        category: "Geração de Leads",
+        id: "webinar9",
+        title: "Agenciando em 2023",
+        category: "Agências",
+        date: '2023-07-05',
+        type: "Webinar",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        src: "https://www.youtube.com/embed/yju8RTdhHQ0",
+        thumb: "/assets/images/thumbnail.png",
+        downloads: [
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+        ]
+    },
+    {
+        id: "webinar10",
+        title: "Gerando renda com Chatbot",
+        category: "Chatbot",
         date: '2023-07-03',
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",

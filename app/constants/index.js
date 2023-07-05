@@ -108,7 +108,7 @@ export const contentCard = [
         id: "webinar8",
         title: "Marketing Digital em 2023",
         category: "Marketing Digital",
-        date: '2023-07-01',
+        date: '2023-07-05',
         type: "Webinar",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",

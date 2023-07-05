@@ -48,7 +48,6 @@ const Content: React.FC<ContentProps> = ({ currentCards, setCurrentCards }) => {
       setCurrentPage(1)
       setCurrentCards(() => {
         const filteredCardCategory = contentCard.filter((card: Card) => card.category === category);
-        console.log(currentCards)
         return filteredCardCategory;
       });
     }

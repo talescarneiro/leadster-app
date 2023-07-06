@@ -31,7 +31,7 @@ const Modal: React.FC<ModalProps> = ({ card, closeModal }) => {
   }, [closeModal])
 
   return (
-    <div className="fixed top-0 left-0 flex items-center justify-center w-screen h-screen bg-black bg-opacity-25 z-50">
+    <div className="fixed top-0 left-0 flex items-center justify-center w-screen h-screen bg-black bg-opacity-25 z-50 text-grayprimary">
         <div ref={modalRef} className="bg-white rounded-lg flex flex-col lg:max-w-[35%] w-full border-blueprimary border-t-4">
             <div className='w-full h-5 flex justify-end items-center p-4'>
                 <button onClick={handleCloseModal}>X</button>
@@ -69,8 +69,8 @@ const Modal: React.FC<ModalProps> = ({ card, closeModal }) => {
                 <div className='flex gap-2 text-xs flex-wrap'>
                     {card?.downloads && card?.downloads?.map((download: Download, index: number) => (
                         <a key={index + 1} href={download.src} className='flex items-center' download>
-                            <div className='h-full px-2 flex items-center rounded-l-md' style={{ backgroundColor: download.color }}><FiDownload size={14} /></div>
-                            <div className='p-1 rounded-r-md font-semibold px-2' style={{ backgroundColor: download.secondaryColor, color: download.color }}>{download.name}.{download.type}</div>
+                            <div className='h-full px-2 flex items-center rounded-l-md' style={{ backgroundColor: download.color, color: download.primaryColor}}><FiDownload size={14} /></div>
+                            <div className='p-1 rounded-r-md font-semibold px-2' style={{ backgroundColor: download.secondaryColor, color: download.primaryColor }}>{download.name}.{download.type}</div>
                         </a>
                     ))}
                 </div>

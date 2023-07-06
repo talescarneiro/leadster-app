@@ -3,7 +3,7 @@ import { CiCreditCardOff } from "react-icons/ci";
 
 const HeroFooter = () => {
   return (
-    <section className='bg-primary w-screen lg:h-[600px] h-[800px] mt-[80px] mb-[50px] flex items-center justify-center'>
+    <section className='bg-primary w-screen lg:h-[600px] h-[800px] mt-[80px] mb-[50px] flex items-center justify-center text-graysecondary'>
       <div className="lg:w-80-screen px-12 flex lg:flex-row flex-col items-center justify-center">
         <div className="lg:w-50-screen">
           <Image 

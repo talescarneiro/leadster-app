@@ -19,16 +19,18 @@ const Button: React.FC<ButtonProps> = ({
             disabled:cursor-not-allowed
             rounded-full
             border
+            border-grayprimary
             transition
             px-4
             py-2
             text-[12px]
             whitespace-nowrap
-            font-semibold
+            font-bold
             hover:border-blueprimary
             ${!isActive && 'hover:text-blueprimary'}
             ${isActive ? 'bg-blueprimary' : 'bg-white'}
-            ${isActive ? 'text-white' : 'text-black'}
+            ${isActive ? 'text-white' : 'text-grayprimary'}
+            ${isActive ? 'border-none' : ''}
         `}
     >
         {label}

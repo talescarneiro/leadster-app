@@ -9,9 +9,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -24,9 +24,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -39,9 +39,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -54,9 +54,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -69,9 +69,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -84,9 +84,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -99,9 +99,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -114,9 +114,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -129,9 +129,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
     {
@@ -144,9 +144,9 @@ export const contentCard = [
         src: "https://www.youtube.com/embed/yju8RTdhHQ0",
         thumb: "/assets/images/thumbnail.png",
         downloads: [
-            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#00af80', primaryColor: '#00c4a1', secondaryColor: '#c2f4ea'},
-            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#0079eb', primaryColor: '#a1d9ff', secondaryColor: '#c2e6ff'},
-            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#b59f36', primaryColor: '#fff1a0', secondaryColor: '#fff8d0'},
+            {id: 872789, name: 'Download', type: 'zip', src: '/assets/uploads/Download.rar', color: '#9fefdf', primaryColor: '#00b88f', secondaryColor: '#c2f4ea'},
+            {id: 872786, name: 'Worksheet', type: 'xlsx', src: '/assets/uploads/Worksheet.xlsx', color: '#a1d9ff', primaryColor: '#007eed', secondaryColor: '#c2e6ff'},
+            {id: 872788, name: 'Presentation', type: 'pptx', src: '/assets/uploads/Presentation.pptx', color: '#fff1a0', primaryColor: '#b0982c', secondaryColor: '#fff8d0'},
         ]
     },
 ]

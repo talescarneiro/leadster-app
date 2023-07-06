@@ -12,6 +12,9 @@ module.exports = {
         "secondary": "#0077F4",
         "blueprimary": "#2c83fb",
         "bluesecondary": "#1f76f0",
+        "grayprimary": "#3a5060",
+        "graysecondary": "#1c3c50",
+        "lightgray": "#658896"
       },
       backgroundColor: {
         "light-gray": "#F9F9F9",
@@ -21,7 +24,7 @@ module.exports = {
         "2": "2px",
       },
       screens: {
-        "xs": "310px",
+        "xs": "300px",
       },
       width: {
         '100-screen': '100%',

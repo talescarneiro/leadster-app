@@ -14,10 +14,10 @@ const PageContent: React.FC<PageContentProps> = ( { pages, currentPage, setCurre
 
   return (
     <div className='flex gap-3 items-center'>
-      <h3 className='font-semibold'>Página</h3>
+      <h3 className='font-bold text-graysecondary'>Página</h3>
       {Array.from(Array(pages), (item, index) => {
         return (
-          <button className={`px-3 py-1 rounded-md border ${currentPage === index + 1 ? 'border-blue-500 text-blue-500 font-semibold' : 'border-none'}`} key={index} value={index + 1} onClick={() => handlePageClick(index + 1)}>{index + 1}</button>
+          <button className={`px-3 py-1 rounded-md border ${currentPage === index + 1 ? 'border-blue-500 text-blue-500 font-semibold' : 'border-none text-graysecondary font-bold'}`} key={index} value={index + 1} onClick={() => handlePageClick(index + 1)}>{index + 1}</button>
         )
       })}
     </div>

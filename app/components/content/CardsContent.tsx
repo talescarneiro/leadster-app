@@ -42,7 +42,7 @@ const CardsContent: React.FC<CardsContentProps> = ({ currentCards, openModal, mo
                             <div className='absolute inset-0 bg-blue-400 opacity-0 group-hover:opacity-50 transition-opacity'></div>
                         </div>
                         <div className='p-5'>
-                            <h2 className='font-semibold transition text-black group-hover:text-blue-500'>{card.title}</h2>
+                            <h2 className='font-bold transition text-graysecondary group-hover:text-blue-500'>{card.title}</h2>
                         </div>
                     </div>
                 ))}

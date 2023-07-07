@@ -28,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({ card, closeModal }) => {
       document.body.classList.remove('modal-open')
       document.removeEventListener('mousedown', handleOutsideClick)
     }
-  }, [closeModal])
+  }, [closeModal, handleCloseModal])
 
   return (
     <div className="fixed top-0 left-0 flex items-center justify-center w-screen h-screen bg-black bg-opacity-25 z-50 text-grayprimary">

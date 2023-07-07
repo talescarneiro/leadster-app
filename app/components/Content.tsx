@@ -6,7 +6,7 @@ import CategoryContent from './content/CategoryContent';
 import CardsContent, { Card } from './content/CardsContent';
 import PageContent from './content/PageContent';
 
-import { optionsSelect } from "@/app/constants"
+import { optionsSelect } from "../constants"
 
 interface ContentProps {
   currentCards: Card[];

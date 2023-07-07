@@ -25,6 +25,11 @@ git clone git@github.com:talescarneiro/leadster-app.git
 npm install
 ```
 
+## Testing the application
+```
+npm run test
+```
+
 ## Run the application
 ```
 npm run dev

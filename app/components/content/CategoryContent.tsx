@@ -1,4 +1,5 @@
-import { categoryOptions, optionsSelect } from "@/app/constants"
+import React from "react";
+import { categoryOptions, optionsSelect } from "../../constants"
 import Button from "../Button"
 
 interface CategoryContentProps {

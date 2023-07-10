@@ -35,7 +35,7 @@ interface CardsContentProps {
 const CardsContent: React.FC<CardsContentProps> = ({ currentCards, openModal, modalOpen, selectedCard, closeModal }) => {
     return (
         <div className='flex flex-col items-center justify-center'>
-            <div className='flex flex-wrap justify-between gap-y-6 gap-2'>
+            <div className='flex flex-wrap justify-stretch gap-y-6 gap-2'>
                 {currentCards.map((card: Card) => (
                     <div key={card.title} onClick={() => openModal(card)} className='flex flex-col shadow-lg rounded-xl w-[300px] cursor-pointer group'>
                         <div className='object-cover relative'>

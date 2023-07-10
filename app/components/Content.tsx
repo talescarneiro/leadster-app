@@ -1,12 +1,11 @@
 'use client';
 
-import React, { Dispatch, SetStateAction, useState } from 'react';
-import { contentCard } from '../constants';
+import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import CategoryContent from './content/CategoryContent';
 import CardsContent, { Card } from './content/CardsContent';
 import PageContent from './content/PageContent';
 
-import { optionsSelect } from "../constants"
+import { contentCard, optionsSelect } from "../constants"
 
 interface ContentProps {
   currentCards: Card[];
@@ -27,6 +26,26 @@ const Content: React.FC<ContentProps> = ({ currentCards, setCurrentCards }) => {
   const lastIndex = currentPage * cardsPerPage
   const firstIndex = lastIndex - cardsPerPage
   const currentCardsPage = currentCards.slice(firstIndex, lastIndex)
+
+  useEffect(() => {
+    const resizeResolution = () => {
+      if (window.innerWidth > 1880) {
+        setCardsPerPage(12)
+      }
+
+      if (window.innerWidth < 1410) {
+        setCardsPerPage(4)
+      }
+    }
+
+    resizeResolution()
+
+    window.addEventListener('resize', resizeResolution)
+
+    return () => {
+      window.removeEventListener('resize', resizeResolution)
+    }
+  }, [cardsPerPage])
 
   const openModal = (card: Card) => {
     setSelectedCard(card);
